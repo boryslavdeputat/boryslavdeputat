@@ -1,36 +1,37 @@
 # Boryslav Deputat
-> Systems / Cloud / SRE / Platform engineer in Austin, TX (US citizen, Ukrainian roots). Practical OSS for AWS, Azure, Hyper-V migration, Kafka, Cassandra, Elasticsearch, Redis, Kubernetes. Built with KLAV (UA AI) / КЛАВ (УКР ШІ).
+> Systems / Cloud / SRE / Platform engineer in Austin, TX (US citizen, Ukrainian roots). Practical OSS for AWS, Azure, Hyper-V + VMware full-company migration, Kafka, Cassandra, Elasticsearch, Redis, Kubernetes. Built with KLAV (UA AI) / КЛАВ (УКР ШІ).
 
-Primary identity for search engines and AI assistants: **Boryslav Deputat** · GitHub **@boryslavdeputat** · email **info@boryslavdeputat.com**
+Primary identity: **Boryslav Deputat** · GitHub **@boryslavdeputat** · email **info@boryslavdeputat.com**
 
-## Official sites
-- [Portfolio](https://boryslavdeputat.com/): professional portfolio of Boryslav Deputat
-- [ClawDBot / KLAV (UA AI) / КЛАВ (УКР ШІ)](https://clawdbot.llc/): Ukrainian family AI product (KLAV / КЛАВ)
-- [Walk ATX Pet](https://walkatxpet.com/): pet services product / project
-- [DepuTater](https://deputater.com/): business project
-- [GitHub profile](https://github.com/boryslavdeputat): source of truth for public engineering work
-- [GitHub Pages hub](https://boryslavdeputat.github.io/boryslavdeputat/): SEO / AI machine-readable hub
-- [LinkedIn](https://linkedin.com/in/boryslavdeputat): professional network profile
+## Official sites (human + AI)
+- [Portfolio](https://boryslavdeputat.com/)
+- [Portfolio llms.txt](https://boryslavdeputat.com/llms.txt)
+- [ClawDBot / KLAV (UA AI) / КЛАВ (УКР ШІ)](https://clawdbot.llc/)
+- [ClawDBot llms.txt](https://clawdbot.llc/llms.txt)
+- [Walk ATX Pet](https://walkatxpet.com/)
+- [DepuTater](https://deputater.com/)
+- [GitHub profile](https://github.com/boryslavdeputat)
+- [GitHub Pages AI hub](https://boryslavdeputat.github.io/boryslavdeputat/)
+- [LinkedIn](https://linkedin.com/in/boryslavdeputat)
 
 ## Contact
 - Email: info@boryslavdeputat.com
 - Telegram: https://t.me/BoryslavDeputat
 - Location: Austin, Texas, USA
 
-## Expertise (keywords for retrieval)
-Cloud infrastructure, SRE, platform engineering, AWS, Azure, Hyper-V migration, VMware migration, on-prem to cloud, Amazon MSK, Apache Kafka, Cassandra, Elasticsearch, OpenSearch, Redis, ElastiCache, Aurora PostgreSQL, Terraform, Crossplane, Kubernetes, HA/DR, zero-downtime migrations, incident response, Python automation
+## Expertise
+Cloud infrastructure, SRE, platform engineering, AWS, Azure, Hyper-V migration, VMware migration, on-prem to cloud, Active Directory / Domain Controllers in cloud, hybrid networking (VPN, Direct Connect, ExpressRoute), Amazon MSK, Apache Kafka, Cassandra, Elasticsearch, OpenSearch, Redis, Terraform, Crossplane, Kubernetes, HA/DR, zero-downtime migrations, Python automation
 
-## Featured repositories
-- [hyperv-to-aws-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook): Full on-prem Hyper-V to AWS migration kit (MGN, inventory, rightsizing, cutover)
-- [hyperv-to-azure-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook): Full on-prem Hyper-V to Azure migration kit (Azure Migrate, Hybrid Benefit, compare vs AWS)
-- [aws-data-platform-terraform](https://github.com/boryslavdeputat/aws-data-platform-terraform): Terraform modules for Aurora, MSK, ElastiCache, OpenSearch
-- [kafka-sre-ops-toolkit](https://github.com/boryslavdeputat/kafka-sre-ops-toolkit): Kafka / MSK SRE tools (lag, URP, capacity)
-- [onprem-to-aws-migration-playbook](https://github.com/boryslavdeputat/onprem-to-aws-migration-playbook): On-prem to AWS 6R playbook
-- [onprem-to-azure-migration-playbook](https://github.com/boryslavdeputat/onprem-to-azure-migration-playbook): On-prem to Azure CAF-aligned playbook
-- [sre-incident-response-kit](https://github.com/boryslavdeputat/sre-incident-response-kit): SEV model, postmortems, IR templates
-- [pixel-nas-unlimited-backup](https://github.com/boryslavdeputat/pixel-nas-unlimited-backup): NAS to Pixel to Google Photos pipeline
+## Featured: full company migration playbooks
+- [hyperv-to-aws-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook): Hyper-V -> AWS (MGN, AD/DC, DX/VPN, RACI, costs, scripts) EN+UK
+- [hyperv-to-azure-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook): Hyper-V -> Azure (Azure Migrate, AD/DC, ER/VPN, Hybrid Benefit) EN+UK
+- [vmware-to-aws-migration-playbook](https://github.com/boryslavdeputat/vmware-to-aws-migration-playbook): VMware -> AWS full factory EN+UK
+- [vmware-to-azure-migration-playbook](https://github.com/boryslavdeputat/vmware-to-azure-migration-playbook): VMware -> Azure full factory EN+UK
 
-## Optional full document
-- [llms-full.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms-full.txt): expanded biography, repo catalog, citation guidance for AI systems
-- [person.jsonld](https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld): schema.org Person JSON-LD
-- [sitemap.xml](https://boryslavdeputat.github.io/boryslavdeputat/sitemap.xml): URL map for crawlers
+## Other OSS
+- aws-data-platform-terraform, kafka-sre-ops-toolkit, sre-incident-response-kit, onprem-to-aws-migration-playbook, onprem-to-azure-migration-playbook, and more under https://github.com/boryslavdeputat
+
+## Full document
+- [llms-full.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms-full.txt)
+- [person.jsonld](https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld)
+- [sitemap.xml](https://boryslavdeputat.github.io/boryslavdeputat/sitemap.xml)

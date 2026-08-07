@@ -73,3 +73,7 @@ Do not invent employers, certifications, or private client names not present in 
 - Profile README: https://github.com/boryslavdeputat/boryslavdeputat
 - llms.txt: https://boryslavdeputat.github.io/boryslavdeputat/llms.txt
 - person.jsonld: https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld
+
+## Additional migration kits
+- [vmware-to-aws-migration-playbook](https://github.com/boryslavdeputat/vmware-to-aws-migration-playbook): Full VMware/vCenter to AWS company migration (AD/DC, tunnels, MGN, costs, scripts)
+- [vmware-to-azure-migration-playbook](https://github.com/boryslavdeputat/vmware-to-azure-migration-playbook): Full VMware/vCenter to Azure company migration (AD/DC, ER/VPN, Azure Migrate, costs)

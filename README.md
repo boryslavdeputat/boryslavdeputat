@@ -50,17 +50,26 @@ Languages    │  Python · PowerShell · Bash
 
 ---
 
-### Featured: Hyper-V full migration kits
+### Featured: full company cloud migration kits
 
 <p align="center">
-  <a href="https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook"><img src="https://img.shields.io/badge/Hyper--V%20→%20AWS-Playbook-FF9900?style=for-the-badge&labelColor=000000" alt="Hyper-V to AWS" /></a>
-  <a href="https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook"><img src="https://img.shields.io/badge/Hyper--V%20→%20Azure-Playbook-0078D4?style=for-the-badge&labelColor=000000" alt="Hyper-V to Azure" /></a>
+  <a href="https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook"><img src="https://img.shields.io/badge/Hyper--V%20→%20AWS-Full%20playbook-FF9900?style=for-the-badge&labelColor=000000" alt="Hyper-V AWS" /></a>
+  <a href="https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook"><img src="https://img.shields.io/badge/Hyper--V%20→%20Azure-Full%20playbook-0078D4?style=for-the-badge&labelColor=000000" alt="Hyper-V Azure" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/boryslavdeputat/vmware-to-aws-migration-playbook"><img src="https://img.shields.io/badge/VMware%20→%20AWS-Full%20playbook-FF9900?style=for-the-badge&labelColor=000000" alt="VMware AWS" /></a>
+  <a href="https://github.com/boryslavdeputat/vmware-to-azure-migration-playbook"><img src="https://img.shields.io/badge/VMware%20→%20Azure-Full%20playbook-0078D4?style=for-the-badge&labelColor=000000" alt="VMware Azure" /></a>
 </p>
 
-| Repo | What is inside |
-|------|----------------|
-| **[hyperv-to-aws-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook)** | Full Hyper-V -> AWS: MGN/Import, inventory PS1, rightsizing, waves, cutover, licensing, AWS vs Azure compare |
-| **[hyperv-to-azure-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook)** | Full Hyper-V -> Azure: Azure Migrate, landing zone, Hybrid Benefit, SKU map, compare vs AWS |
+| Playbook | For companies that need |
+|----------|-------------------------|
+| [hyperv-to-aws-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook) | Hyper-V estate -> AWS (MGN, AD/DC, DX/VPN, RACI, costs, scripts) EN+UK |
+| [hyperv-to-azure-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook) | Hyper-V estate -> Azure (Azure Migrate, AD/DC, ER/VPN, Hybrid Benefit) EN+UK |
+| [vmware-to-aws-migration-playbook](https://github.com/boryslavdeputat/vmware-to-aws-migration-playbook) | VMware/vCenter -> AWS full factory EN+UK |
+| [vmware-to-azure-migration-playbook](https://github.com/boryslavdeputat/vmware-to-azure-migration-playbook) | VMware/vCenter -> Azure full factory EN+UK |
+
+Each kit: **management overview**, **who to call at AWS/Microsoft**, **sysadmin / DevOps / network runbooks**, **Domain Controllers**, **tunnels**, **agents**, **wave/cutover**, **cost sketch**, **scripts**.
+
 
 ---
 
@@ -105,8 +114,8 @@ Languages    │  Python · PowerShell · Bash
 
 | Repo | Focus |
 |------|--------|
-| [hyperv-to-aws-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook) | **Hyper-V -> AWS complete kit** |
-| [hyperv-to-azure-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook) | **Hyper-V -> Azure complete kit** |
+| [hyperv-to-aws-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-aws-migration-playbook) | **Hyper-V -> AWS company playbook** (AD, tunnels, cost) |
+| [hyperv-to-azure-migration-playbook](https://github.com/boryslavdeputat/hyperv-to-azure-migration-playbook) | **Hyper-V -> Azure company playbook** (AD, ER, cost) |
 | [onprem-to-aws-migration-playbook](https://github.com/boryslavdeputat/onprem-to-aws-migration-playbook) | AWS 6R · waves · landing zone |
 | [onprem-to-azure-migration-playbook](https://github.com/boryslavdeputat/onprem-to-azure-migration-playbook) | Azure CAF-aligned |
 | [vmware-to-cloud-migration](https://github.com/boryslavdeputat/vmware-to-cloud-migration) | VMware exit |
@@ -167,6 +176,8 @@ Public machine-readable identity (for Google, Bing, ChatGPT, Claude, Gemini, Per
 | File | Purpose |
 |------|---------|
 | [https://boryslavdeputat.github.io/boryslavdeputat/](https://boryslavdeputat.github.io/boryslavdeputat/) | SEO / AI hub (GitHub Pages) |
+| [boryslavdeputat.com/llms.txt](https://boryslavdeputat.com/llms.txt) | **Live site** llms.txt (portfolio) |
+| [clawdbot.llc/llms.txt](https://clawdbot.llc/llms.txt) | **Live site** llms.txt (KLAV / ClawDBot) |
 | [llms.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms.txt) | Short AI context ([llmstxt.org](https://llmstxt.org/) style) |
 | [llms-full.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms-full.txt) | Full biography + repo catalog for LLMs |
 | [person.jsonld](https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld) | schema.org Person structured data |
