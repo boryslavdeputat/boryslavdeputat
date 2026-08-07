@@ -1,0 +1,16 @@
+/* TEAM */
+Creator: Boryslav Deputat
+Role: Cloud / SRE / Platform engineer
+Location: Austin, TX, USA
+Contact: info@boryslavdeputat.com
+GitHub: https://github.com/boryslavdeputat
+Site: https://boryslavdeputat.com/
+AI brand: KLAV (UA AI) / КЛАВ (УКР ШІ) - https://clawdbot.llc/
+
+/* THANKS */
+Built with KLAV (UA AI) / КЛАВ (УКР ШІ)
+
+/* SITE */
+Last update: 2026-08-07
+Standards: llms.txt, schema.org Person JSON-LD, sitemap.xml
+Language: EN / UK

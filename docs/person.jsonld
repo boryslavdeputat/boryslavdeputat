@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://boryslavdeputat.com/#person",
+  "name": "Boryslav Deputat",
+  "alternateName": [
+    "@boryslavdeputat",
+    "Boryslav Deputat Austin"
+  ],
+  "url": "https://boryslavdeputat.com/",
+  "image": "https://github.com/boryslavdeputat.png",
+  "email": "info@boryslavdeputat.com",
+  "jobTitle": "Cloud Infrastructure / SRE / Platform Engineer",
+  "description": "Systems and cloud engineer in Austin, TX. US citizen with Ukrainian roots. Specializes in AWS, Azure, Hyper-V and VMware migration, Kafka, Cassandra, Elasticsearch, Redis, Kubernetes, Terraform, and SRE practices. Public work built with KLAV (UA AI) / КЛАВ (УКР ШІ).",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Austin",
+    "addressRegion": "TX",
+    "addressCountry": "US"
+  },
+  "nationality": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "knowsAbout": [
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Hyper-V",
+    "VMware",
+    "Site Reliability Engineering",
+    "Apache Kafka",
+    "Amazon MSK",
+    "Apache Cassandra",
+    "Elasticsearch",
+    "OpenSearch",
+    "Redis",
+    "Kubernetes",
+    "Terraform",
+    "Crossplane",
+    "Platform Engineering",
+    "Disaster Recovery",
+    "Cloud Migration",
+    "Python automation"
+  ],
+  "sameAs": [
+    "https://github.com/boryslavdeputat",
+    "https://linkedin.com/in/boryslavdeputat",
+    "https://boryslavdeputat.com/",
+    "https://clawdbot.llc/",
+    "https://walkatxpet.com/",
+    "https://deputater.com/",
+    "https://boryslavdeputat.github.io/",
+    "https://t.me/BoryslavDeputat"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Independent / open source portfolio",
+    "url": "https://github.com/boryslavdeputat"
+  }
+}

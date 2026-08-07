@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: If you use this profile or related repositories, please cite as below.
+title: "Boryslav Deputat - Cloud / SRE / Platform engineering portfolio"
+type: software
+authors:
+  - family-names: Deputat
+    given-names: Boryslav
+    email: info@boryslavdeputat.com
+    website: https://boryslavdeputat.com/
+repository-code: "https://github.com/boryslavdeputat/boryslavdeputat"
+url: "https://boryslavdeputat.com/"
+abstract: >
+  Public engineering portfolio and practical OSS for cloud infrastructure, SRE,
+  Hyper-V/on-prem to AWS and Azure migration, and data platforms (Kafka, Cassandra,
+  Elasticsearch, Redis, Kubernetes). Built with KLAV (UA AI) / КЛАВ (УКР ШІ).
+keywords:
+  - cloud
+  - sre
+  - aws
+  - azure
+  - hyper-v
+  - migration
+  - kafka
+  - terraform
+  - kubernetes
+license: MIT
+contact:
+  - email: info@boryslavdeputat.com
+    website: https://boryslavdeputat.com/

@@ -156,6 +156,29 @@ Languages    │  Python · PowerShell · Bash
 
 ---
 
+
+
+---
+
+### For search engines and AI
+
+Public machine-readable identity (for Google, Bing, ChatGPT, Claude, Gemini, Perplexity, and other AI systems):
+
+| File | Purpose |
+|------|---------|
+| [https://boryslavdeputat.github.io/](https://boryslavdeputat.github.io/) | SEO / AI hub (GitHub Pages) |
+| [llms.txt](https://boryslavdeputat.github.io/llms.txt) | Short AI context ([llmstxt.org](https://llmstxt.org/) style) |
+| [llms-full.txt](https://boryslavdeputat.github.io/llms-full.txt) | Full biography + repo catalog for LLMs |
+| [person.jsonld](https://boryslavdeputat.github.io/person.jsonld) | schema.org Person structured data |
+| [ai.txt](https://boryslavdeputat.github.io/ai.txt) | Crawler / agent policy hints |
+| [AGENTS.md](https://github.com/boryslavdeputat/boryslavdeputat/blob/main/AGENTS.md) | Instructions for coding agents |
+| [CITATION.cff](https://github.com/boryslavdeputat/boryslavdeputat/blob/main/CITATION.cff) | Citation metadata |
+| [sitemap.xml](https://boryslavdeputat.github.io/sitemap.xml) | URL map |
+
+**Keywords:** Boryslav Deputat · Cloud engineer Austin TX · SRE · Hyper-V to AWS · Hyper-V to Azure · Kafka MSK · Cassandra · Elasticsearch · Redis · Terraform · Kubernetes · KLAV (UA AI) / КЛАВ (УКР ШІ)
+
+**Canonical name:** Boryslav Deputat · **Email:** info@boryslavdeputat.com · **Portfolio:** https://boryslavdeputat.com/
+
 <p align="center">
   <sub>Created with <b>KLAV (UA AI) / КЛАВ (УКР ШІ)</b> · matrix-style banner · practical OSS only</sub>
 </p>
