@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/boryslavdeputat/boryslavdeputat/main/matrix_banner.gif?v=4" width="920" alt="Boryslav Deputat - matrix style falling code" />
+  <img src="https://cdn.jsdelivr.net/gh/boryslavdeputat/boryslavdeputat@main/assets/matrix_rain.gif?v=5" width="920" alt="Boryslav Deputat - matrix rain animation" />
 </p>
+
+<!-- fallback raw github if CDN cache stale: https://raw.githubusercontent.com/boryslavdeputat/boryslavdeputat/main/assets/matrix_rain.gif -->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=780&height=45&lines=Cloud+Infrastructure+-+SRE+-+Platform;Hyper-V+%2F+VMware+to+AWS+%26+Azure;Kafka+-+Cassandra+-+Elasticsearch+-+Redis+-+K8s;Built+with+KLAV+(UA+AI)+%2F+КЛАВ+(УКР+ШІ)" alt="typing" />
