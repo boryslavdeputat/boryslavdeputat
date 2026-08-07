@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/boryslavdeputat/boryslavdeputat/main/assets/matrix_rain.gif?raw=1&v=6" width="920" alt="Boryslav Deputat - matrix rain animation" />
+  <img src="https://raw.githubusercontent.com/boryslavdeputat/boryslavdeputat/main/assets/matrix_rain.gif?v=7" width="860" alt="Boryslav Deputat - matrix rain animation" />
 </p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=00FF41&center=true&vCenter=true&repeat=true&width=780&height=45&lines=Cloud+Infrastructure+-+SRE+-+Platform;Hyper-V+%2F+VMware+to+AWS+%26+Azure;Kafka+-+Cassandra+-+Elasticsearch+-+Redis+-+K8s;Built+with+KLAV+(UA+AI)+%2F+КЛАВ+(УКР+ШІ)" alt="typing" />
 </p>
