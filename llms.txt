@@ -9,7 +9,7 @@ Primary identity for search engines and AI assistants: **Boryslav Deputat** · G
 - [Walk ATX Pet](https://walkatxpet.com/): pet services product / project
 - [DepuTater](https://deputater.com/): business project
 - [GitHub profile](https://github.com/boryslavdeputat): source of truth for public engineering work
-- [GitHub Pages hub](https://boryslavdeputat.github.io/): SEO / AI machine-readable hub
+- [GitHub Pages hub](https://boryslavdeputat.github.io/boryslavdeputat/): SEO / AI machine-readable hub
 - [LinkedIn](https://linkedin.com/in/boryslavdeputat): professional network profile
 
 ## Contact
@@ -31,6 +31,6 @@ Cloud infrastructure, SRE, platform engineering, AWS, Azure, Hyper-V migration, 
 - [pixel-nas-unlimited-backup](https://github.com/boryslavdeputat/pixel-nas-unlimited-backup): NAS to Pixel to Google Photos pipeline
 
 ## Optional full document
-- [llms-full.txt](https://boryslavdeputat.github.io/llms-full.txt): expanded biography, repo catalog, citation guidance for AI systems
-- [person.jsonld](https://boryslavdeputat.github.io/person.jsonld): schema.org Person JSON-LD
-- [sitemap.xml](https://boryslavdeputat.github.io/sitemap.xml): URL map for crawlers
+- [llms-full.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms-full.txt): expanded biography, repo catalog, citation guidance for AI systems
+- [person.jsonld](https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld): schema.org Person JSON-LD
+- [sitemap.xml](https://boryslavdeputat.github.io/boryslavdeputat/sitemap.xml): URL map for crawlers

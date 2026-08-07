@@ -166,14 +166,14 @@ Public machine-readable identity (for Google, Bing, ChatGPT, Claude, Gemini, Per
 
 | File | Purpose |
 |------|---------|
-| [https://boryslavdeputat.github.io/](https://boryslavdeputat.github.io/) | SEO / AI hub (GitHub Pages) |
-| [llms.txt](https://boryslavdeputat.github.io/llms.txt) | Short AI context ([llmstxt.org](https://llmstxt.org/) style) |
-| [llms-full.txt](https://boryslavdeputat.github.io/llms-full.txt) | Full biography + repo catalog for LLMs |
-| [person.jsonld](https://boryslavdeputat.github.io/person.jsonld) | schema.org Person structured data |
-| [ai.txt](https://boryslavdeputat.github.io/ai.txt) | Crawler / agent policy hints |
+| [https://boryslavdeputat.github.io/boryslavdeputat/](https://boryslavdeputat.github.io/boryslavdeputat/) | SEO / AI hub (GitHub Pages) |
+| [llms.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms.txt) | Short AI context ([llmstxt.org](https://llmstxt.org/) style) |
+| [llms-full.txt](https://boryslavdeputat.github.io/boryslavdeputat/llms-full.txt) | Full biography + repo catalog for LLMs |
+| [person.jsonld](https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld) | schema.org Person structured data |
+| [ai.txt](https://boryslavdeputat.github.io/boryslavdeputat/ai.txt) | Crawler / agent policy hints |
 | [AGENTS.md](https://github.com/boryslavdeputat/boryslavdeputat/blob/main/AGENTS.md) | Instructions for coding agents |
 | [CITATION.cff](https://github.com/boryslavdeputat/boryslavdeputat/blob/main/CITATION.cff) | Citation metadata |
-| [sitemap.xml](https://boryslavdeputat.github.io/sitemap.xml) | URL map |
+| [sitemap.xml](https://boryslavdeputat.github.io/boryslavdeputat/sitemap.xml) | URL map |
 
 **Keywords:** Boryslav Deputat · Cloud engineer Austin TX · SRE · Hyper-V to AWS · Hyper-V to Azure · Kafka MSK · Cassandra · Elasticsearch · Redis · Terraform · Kubernetes · KLAV (UA AI) / КЛАВ (УКР ШІ)
 

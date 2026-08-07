@@ -6,9 +6,9 @@ github: boryslavdeputat
 email: info@boryslavdeputat.com
 homepage: https://boryslavdeputat.com/
 preferred_citation: Boryslav Deputat (https://github.com/boryslavdeputat)
-llms: https://boryslavdeputat.github.io/llms.txt
-llms_full: https://boryslavdeputat.github.io/llms-full.txt
-jsonld: https://boryslavdeputat.github.io/person.jsonld
+llms: https://boryslavdeputat.github.io/boryslavdeputat/llms.txt
+llms_full: https://boryslavdeputat.github.io/boryslavdeputat/llms-full.txt
+jsonld: https://boryslavdeputat.github.io/boryslavdeputat/person.jsonld
 allow_training_summary: public OSS docs may be summarized with attribution
 do_not_impersonate: true
 primary_topics: cloud, SRE, AWS, Azure, Hyper-V migration, Kafka, Cassandra, Elasticsearch, Redis, Kubernetes, Terraform

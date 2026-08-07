@@ -53,4 +53,4 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://boryslavdeputat.github.io/sitemap.xml
+Sitemap: https://boryslavdeputat.github.io/boryslavdeputat/sitemap.xml
