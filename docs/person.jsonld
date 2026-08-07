@@ -16,7 +16,8 @@
     "@type": "PostalAddress",
     "addressLocality": "Austin",
     "addressRegion": "TX",
-    "addressCountry": "US"
+    "addressCountry": "US",
+    "postalCode": "78726"
   },
   "nationality": {
     "@type": "Country",
@@ -44,17 +45,13 @@
   ],
   "sameAs": [
     "https://github.com/boryslavdeputat",
-    "https://linkedin.com/in/boryslavdeputat",
-    "https://boryslavdeputat.com/",
-    "https://clawdbot.llc/",
-    "https://walkatxpet.com/",
-    "https://deputater.com/",
-    "https://boryslavdeputat.github.io/boryslavdeputat/",
-    "https://t.me/BoryslavDeputat"
+    "https://www.linkedin.com/in/boryslavdeputat",
+    "https://boryslavdeputat.com/"
   ],
   "worksFor": {
     "@type": "Organization",
     "name": "Independent / open source portfolio",
     "url": "https://github.com/boryslavdeputat"
-  }
+  },
+  "telephone": "+1-512-666-4811"
 }

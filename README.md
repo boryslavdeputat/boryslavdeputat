@@ -155,13 +155,13 @@ Each kit: **management overview**, **who to call at AWS/Microsoft**, **sysadmin 
 
 | | |
 |--|--|
-| **Portfolio** | [boryslavdeputat.com](https://boryslavdeputat.com/) |
-| **KLAV (UA AI) / КЛАВ (УКР ШІ)** | [clawdbot.llc](https://clawdbot.llc/) |
-| **Walk ATX Pet** | [walkatxpet.com](https://walkatxpet.com/) |
-| **DepuTater** | [deputater.com](https://deputater.com/) |
-| **LinkedIn** | [linkedin.com/in/boryslavdeputat](https://linkedin.com/in/boryslavdeputat) |
+| **Name** | Boryslav Deputat |
+| **Location** | Austin, TX 78726 |
+| **Phone** | +1 512 666-4811 |
 | **Email** | **info@boryslavdeputat.com** |
-| **Telegram** | [@BoryslavDeputat](https://t.me/BoryslavDeputat) |
+| **Website** | [boryslavdeputat.com](https://boryslavdeputat.com) |
+| **LinkedIn** | [linkedin.com/in/boryslavdeputat](https://www.linkedin.com/in/boryslavdeputat) |
+
 
 ---
 
