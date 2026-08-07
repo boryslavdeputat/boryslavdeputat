@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280">
+<defs>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#000" stop-opacity="0.1"/>
+<stop offset="100%" stop-color="#000" stop-opacity="0.7"/>
+</linearGradient>
+</defs>
+<style>
+  .bg { fill: #000; }
+  text { font-family: Consolas, "Courier New", monospace; font-size: 14px; }
+  .head { fill: #d4ffd4; }
+  .mid { fill: #00ff41; }
+  .tail { fill: #008f11; }
+  .col { animation: fall linear infinite; }
+  .c0 { animation-duration: 2.20s; animation-delay: -0.00s; }
+  .c1 { animation-duration: 2.37s; animation-delay: -0.37s; }
+  .c2 { animation-duration: 2.54s; animation-delay: -0.74s; }
+  .c3 { animation-duration: 2.71s; animation-delay: -1.11s; }
+  .c4 { animation-duration: 2.88s; animation-delay: -1.48s; }
+  .c5 { animation-duration: 3.05s; animation-delay: -1.85s; }
+  .c6 { animation-duration: 3.22s; animation-delay: -2.22s; }
+  .c7 { animation-duration: 3.39s; animation-delay: -2.59s; }
+  .c8 { animation-duration: 3.56s; animation-delay: -2.96s; }
+  .c9 { animation-duration: 3.73s; animation-delay: -3.33s; }
+  .c10 { animation-duration: 3.90s; animation-delay: -3.70s; }
+  .c11 { animation-duration: 4.07s; animation-delay: -0.07s; }
+  .c12 { animation-duration: 4.24s; animation-delay: -0.44s; }
+  .c13 { animation-duration: 4.41s; animation-delay: -0.81s; }
+  .c14 { animation-duration: 4.58s; animation-delay: -1.18s; }
+  .c15 { animation-duration: 4.75s; animation-delay: -1.55s; }
+  .c16 { animation-duration: 4.92s; animation-delay: -1.92s; }
+  .c17 { animation-duration: 5.09s; animation-delay: -2.29s; }
+  .c18 { animation-duration: 5.26s; animation-delay: -2.66s; }
+  .c19 { animation-duration: 5.43s; animation-delay: -3.03s; }
+  .c20 { animation-duration: 5.60s; animation-delay: -3.40s; }
+  .c21 { animation-duration: 2.27s; animation-delay: -3.77s; }
+  .c22 { animation-duration: 2.44s; animation-delay: -0.14s; }
+  .c23 { animation-duration: 2.61s; animation-delay: -0.51s; }
+  .c24 { animation-duration: 2.78s; animation-delay: -0.88s; }
+  .c25 { animation-duration: 2.95s; animation-delay: -1.25s; }
+  .c26 { animation-duration: 3.12s; animation-delay: -1.62s; }
+  .c27 { animation-duration: 3.29s; animation-delay: -1.99s; }
+  .c28 { animation-duration: 3.46s; animation-delay: -2.36s; }
+  .c29 { animation-duration: 3.63s; animation-delay: -2.73s; }
+  .c30 { animation-duration: 3.80s; animation-delay: -3.10s; }
+  .c31 { animation-duration: 3.97s; animation-delay: -3.47s; }
+  .c32 { animation-duration: 4.14s; animation-delay: -3.84s; }
+  .c33 { animation-duration: 4.31s; animation-delay: -0.21s; }
+  .c34 { animation-duration: 4.48s; animation-delay: -0.58s; }
+  .c35 { animation-duration: 4.65s; animation-delay: -0.95s; }
+  .c36 { animation-duration: 4.82s; animation-delay: -1.32s; }
+  .c37 { animation-duration: 4.99s; animation-delay: -1.69s; }
+  .c38 { animation-duration: 5.16s; animation-delay: -2.06s; }
+  .c39 { animation-duration: 5.33s; animation-delay: -2.43s; }
+  .c40 { animation-duration: 5.50s; animation-delay: -2.80s; }
+  .c41 { animation-duration: 5.67s; animation-delay: -3.17s; }
+  .c42 { animation-duration: 2.34s; animation-delay: -3.54s; }
+  .c43 { animation-duration: 2.51s; animation-delay: -3.91s; }
+  .c44 { animation-duration: 2.68s; animation-delay: -0.28s; }
+  .c45 { animation-duration: 2.85s; animation-delay: -0.65s; }
+  @keyframes fall {
+    0%   { transform: translateY(-120px); }
+    100% { transform: translateY(300px); }
+  }
+  .plate { fill: #000; fill-opacity: 0.88; stroke: #00ff41; stroke-opacity: 0.55; stroke-width: 1.5; }
+  .t1 { fill: #e8ffe8; font: 700 28px ui-sans-serif, system-ui, sans-serif; }
+  .t2 { fill: #00ff41; font: 500 14px Consolas, monospace; }
+  .t3 { fill: #8f8; font: 400 12px Consolas, monospace; opacity: 0.9; }
+</style>
+<rect class="bg" width="100%" height="100%" rx="12"/>
+<g class="col c0">
+<text x="8" y="0" class="head" opacity="1.00">0</text>
+<text x="8" y="16" class="mid" opacity="1.00">ｺ</text>
+<text x="8" y="32" class="mid" opacity="0.88">5</text>
+<text x="8" y="48" class="mid" opacity="0.82">ｴ</text>
+<text x="8" y="64" class="tail" opacity="0.76">ｵ</text>
+<text x="8" y="80" class="tail" opacity="0.70">@</text>
+<text x="8" y="96" class="tail" opacity="0.64">ｷ</text>
+<text x="8" y="112" class="tail" opacity="0.58">3</text>
+<text x="8" y="128" class="tail" opacity="0.52">ｴ</text>
+<text x="8" y="144" class="tail" opacity="0.46">$</text>
+<text x="8" y="160" class="tail" opacity="0.40">ｾ</text>
+<text x="8" y="176" class="tail" opacity="0.34">ｳ</text>
+<text x="8" y="192" class="tail" opacity="0.28">ｶ</text>
+<text x="8" y="208" class="tail" opacity="0.25">7</text>
+<text x="8" y="224" class="tail" opacity="0.25">6</text>
+<text x="8" y="240" class="tail" opacity="0.25">ｵ</text>
+</g>
+<g class="col c1">
+<text x="28" y="0" class="head" opacity="1.00">ﾀ</text>
+<text x="28" y="16" class="mid" opacity="1.00">ｶ</text>
+<text x="28" y="32" class="mid" opacity="0.88">7</text>
+<text x="28" y="48" class="mid" opacity="0.82">ｴ</text>
+<text x="28" y="64" class="tail" opacity="0.76">ｸ</text>
+<text x="28" y="80" class="tail" opacity="0.70">ｿ</text>
+<text x="28" y="96" class="tail" opacity="0.64">ｴ</text>
+<text x="28" y="112" class="tail" opacity="0.58">5</text>
+<text x="28" y="128" class="tail" opacity="0.52">ｴ</text>
+<text x="28" y="144" class="tail" opacity="0.46">ｿ</text>
+<text x="28" y="160" class="tail" opacity="0.40">ｳ</text>
+<text x="28" y="176" class="tail" opacity="0.34">ｹ</text>
+<text x="28" y="192" class="tail" opacity="0.28">ﾃ</text>
+<text x="28" y="208" class="tail" opacity="0.25">6</text>
+<text x="28" y="224" class="tail" opacity="0.25">ｺ</text>
+<text x="28" y="240" class="tail" opacity="0.25">@</text>
+</g>
+<g class="col c2">
+<text x="48" y="0" class="head" opacity="1.00">ｸ</text>
+<text x="48" y="16" class="mid" opacity="1.00">ﾄ</text>
+<text x="48" y="32" class="mid" opacity="0.88">ｼ</text>
+<text x="48" y="48" class="mid" opacity="0.82">ｷ</text>
+<text x="48" y="64" class="tail" opacity="0.76">ｽ</text>
+<text x="48" y="80" class="tail" opacity="0.70">3</text>
+<text x="48" y="96" class="tail" opacity="0.64">ｷ</text>
+<text x="48" y="112" class="tail" opacity="0.58">ｵ</text>
+<text x="48" y="128" class="tail" opacity="0.52">ｴ</text>
+<text x="48" y="144" class="tail" opacity="0.46">ｾ</text>
+<text x="48" y="160" class="tail" opacity="0.40">></text>
+<text x="48" y="176" class="tail" opacity="0.34">@</text>
+<text x="48" y="192" class="tail" opacity="0.28">7</text>
+<text x="48" y="208" class="tail" opacity="0.25">0</text>
+<text x="48" y="224" class="tail" opacity="0.25">9</text>
+<text x="48" y="240" class="tail" opacity="0.25">9</text>
+</g>
+<g class="col c3">
+<text x="68" y="0" class="head" opacity="1.00">3</text>
+<text x="68" y="16" class="mid" opacity="1.00">ﾄ</text>
+<text x="68" y="32" class="mid" opacity="0.88">ﾀ</text>
+<text x="68" y="48" class="mid" opacity="0.82">ｼ</text>
+<text x="68" y="64" class="tail" opacity="0.76">ﾀ</text>
+<text x="68" y="80" class="tail" opacity="0.70">ｶ</text>
+<text x="68" y="96" class="tail" opacity="0.64">ﾄ</text>
+<text x="68" y="112" class="tail" opacity="0.58">#</text>
+<text x="68" y="128" class="tail" opacity="0.52">></text>
+<text x="68" y="144" class="tail" opacity="0.46">1</text>
+<text x="68" y="160" class="tail" opacity="0.40">8</text>
+<text x="68" y="176" class="tail" opacity="0.34">ﾃ</text>
+<text x="68" y="192" class="tail" opacity="0.28">ｵ</text>
+<text x="68" y="208" class="tail" opacity="0.25">ｸ</text>
+<text x="68" y="224" class="tail" opacity="0.25">$</text>
+<text x="68" y="240" class="tail" opacity="0.25">6</text>
+</g>
+<g class="col c4">
+<text x="88" y="0" class="head" opacity="1.00">ｻ</text>
+<text x="88" y="16" class="mid" opacity="1.00">1</text>
+<text x="88" y="32" class="mid" opacity="0.88">ｺ</text>
+<text x="88" y="48" class="mid" opacity="0.82">></text>
+<text x="88" y="64" class="tail" opacity="0.76">6</text>
+<text x="88" y="80" class="tail" opacity="0.70">ｳ</text>
+<text x="88" y="96" class="tail" opacity="0.64">ｵ</text>
+<text x="88" y="112" class="tail" opacity="0.58">0</text>
+<text x="88" y="128" class="tail" opacity="0.52">1</text>
+<text x="88" y="144" class="tail" opacity="0.46">2</text>
+<text x="88" y="160" class="tail" opacity="0.40">></text>
+<text x="88" y="176" class="tail" opacity="0.34">9</text>
+<text x="88" y="192" class="tail" opacity="0.28">ｵ</text>
+<text x="88" y="208" class="tail" opacity="0.25">ｶ</text>
+<text x="88" y="224" class="tail" opacity="0.25">ﾂ</text>
+<text x="88" y="240" class="tail" opacity="0.25"><</text>
+</g>
+<g class="col c5">
+<text x="108" y="0" class="head" opacity="1.00">ｵ</text>
+<text x="108" y="16" class="mid" opacity="1.00">ｴ</text>
+<text x="108" y="32" class="mid" opacity="0.88">ﾄ</text>
+<text x="108" y="48" class="mid" opacity="0.82">8</text>
+<text x="108" y="64" class="tail" opacity="0.76">ﾃ</text>
+<text x="108" y="80" class="tail" opacity="0.70">4</text>
+<text x="108" y="96" class="tail" opacity="0.64">2</text>
+<text x="108" y="112" class="tail" opacity="0.58">ｲ</text>
+<text x="108" y="128" class="tail" opacity="0.52">9</text>
+<text x="108" y="144" class="tail" opacity="0.46">2</text>
+<text x="108" y="160" class="tail" opacity="0.40">ｻ</text>
+<text x="108" y="176" class="tail" opacity="0.34">ｸ</text>
+<text x="108" y="192" class="tail" opacity="0.28">></text>
+<text x="108" y="208" class="tail" opacity="0.25">ｴ</text>
+<text x="108" y="224" class="tail" opacity="0.25">ｾ</text>
+<text x="108" y="240" class="tail" opacity="0.25">ﾃ</text>
+</g>
+<g class="col c6">
+<text x="128" y="0" class="head" opacity="1.00">ｹ</text>
+<text x="128" y="16" class="mid" opacity="1.00">ﾀ</text>
+<text x="128" y="32" class="mid" opacity="0.88">5</text>
+<text x="128" y="48" class="mid" opacity="0.82">5</text>
+<text x="128" y="64" class="tail" opacity="0.76">></text>
+<text x="128" y="80" class="tail" opacity="0.70">ｶ</text>
+<text x="128" y="96" class="tail" opacity="0.64">ｻ</text>
+<text x="128" y="112" class="tail" opacity="0.58">8</text>
+<text x="128" y="128" class="tail" opacity="0.52">5</text>
+<text x="128" y="144" class="tail" opacity="0.46">ﾂ</text>
+<text x="128" y="160" class="tail" opacity="0.40">ｹ</text>
+<text x="128" y="176" class="tail" opacity="0.34">7</text>
+<text x="128" y="192" class="tail" opacity="0.28">ﾂ</text>
+<text x="128" y="208" class="tail" opacity="0.25">6</text>
+<text x="128" y="224" class="tail" opacity="0.25">2</text>
+<text x="128" y="240" class="tail" opacity="0.25">4</text>
+</g>
+<g class="col c7">
+<text x="148" y="0" class="head" opacity="1.00">ｿ</text>
+<text x="148" y="16" class="mid" opacity="1.00">ｺ</text>
+<text x="148" y="32" class="mid" opacity="0.88">ｶ</text>
+<text x="148" y="48" class="mid" opacity="0.82">ｼ</text>
+<text x="148" y="64" class="tail" opacity="0.76">ｺ</text>
+<text x="148" y="80" class="tail" opacity="0.70">ｿ</text>
+<text x="148" y="96" class="tail" opacity="0.64">ｿ</text>
+<text x="148" y="112" class="tail" opacity="0.58">ｱ</text>
+<text x="148" y="128" class="tail" opacity="0.52">></text>
+<text x="148" y="144" class="tail" opacity="0.46">ｼ</text>
+<text x="148" y="160" class="tail" opacity="0.40">ﾁ</text>
+<text x="148" y="176" class="tail" opacity="0.34">ﾃ</text>
+<text x="148" y="192" class="tail" opacity="0.28">ｱ</text>
+<text x="148" y="208" class="tail" opacity="0.25">ｺ</text>
+<text x="148" y="224" class="tail" opacity="0.25">6</text>
+<text x="148" y="240" class="tail" opacity="0.25">@</text>
+</g>
+<g class="col c8">
+<text x="168" y="0" class="head" opacity="1.00">3</text>
+<text x="168" y="16" class="mid" opacity="1.00">0</text>
+<text x="168" y="32" class="mid" opacity="0.88">ｹ</text>
+<text x="168" y="48" class="mid" opacity="0.82">$</text>
+<text x="168" y="64" class="tail" opacity="0.76">ｴ</text>
+<text x="168" y="80" class="tail" opacity="0.70">9</text>
+<text x="168" y="96" class="tail" opacity="0.64">5</text>
+<text x="168" y="112" class="tail" opacity="0.58">5</text>
+<text x="168" y="128" class="tail" opacity="0.52">5</text>
+<text x="168" y="144" class="tail" opacity="0.46">5</text>
+<text x="168" y="160" class="tail" opacity="0.40">ｷ</text>
+<text x="168" y="176" class="tail" opacity="0.34"><</text>
+<text x="168" y="192" class="tail" opacity="0.28">5</text>
+<text x="168" y="208" class="tail" opacity="0.25">ｴ</text>
+<text x="168" y="224" class="tail" opacity="0.25">ｽ</text>
+<text x="168" y="240" class="tail" opacity="0.25">ｵ</text>
+</g>
+<g class="col c9">
+<text x="188" y="0" class="head" opacity="1.00">ｾ</text>
+<text x="188" y="16" class="mid" opacity="1.00">8</text>
+<text x="188" y="32" class="mid" opacity="0.88">ｻ</text>
+<text x="188" y="48" class="mid" opacity="0.82">ｸ</text>
+<text x="188" y="64" class="tail" opacity="0.76">1</text>
+<text x="188" y="80" class="tail" opacity="0.70">ｴ</text>
+<text x="188" y="96" class="tail" opacity="0.64">ｷ</text>
+<text x="188" y="112" class="tail" opacity="0.58">ｱ</text>
+<text x="188" y="128" class="tail" opacity="0.52">ｺ</text>
+<text x="188" y="144" class="tail" opacity="0.46">@</text>
+<text x="188" y="160" class="tail" opacity="0.40">ｷ</text>
+<text x="188" y="176" class="tail" opacity="0.34">3</text>
+<text x="188" y="192" class="tail" opacity="0.28">ｲ</text>
+<text x="188" y="208" class="tail" opacity="0.25">ｵ</text>
+<text x="188" y="224" class="tail" opacity="0.25">ｾ</text>
+<text x="188" y="240" class="tail" opacity="0.25">4</text>
+</g>
+<g class="col c10">
+<text x="208" y="0" class="head" opacity="1.00">ｺ</text>
+<text x="208" y="16" class="mid" opacity="1.00">ﾁ</text>
+<text x="208" y="32" class="mid" opacity="0.88">2</text>
+<text x="208" y="48" class="mid" opacity="0.82">3</text>
+<text x="208" y="64" class="tail" opacity="0.76"><</text>
+<text x="208" y="80" class="tail" opacity="0.70">ｸ</text>
+<text x="208" y="96" class="tail" opacity="0.64">ｸ</text>
+<text x="208" y="112" class="tail" opacity="0.58">></text>
+<text x="208" y="128" class="tail" opacity="0.52">9</text>
+<text x="208" y="144" class="tail" opacity="0.46"><</text>
+<text x="208" y="160" class="tail" opacity="0.40"><</text>
+<text x="208" y="176" class="tail" opacity="0.34">ﾄ</text>
+<text x="208" y="192" class="tail" opacity="0.28">ｶ</text>
+<text x="208" y="208" class="tail" opacity="0.25">ｺ</text>
+<text x="208" y="224" class="tail" opacity="0.25">ｷ</text>
+<text x="208" y="240" class="tail" opacity="0.25">1</text>
+</g>
+<g class="col c11">
+<text x="228" y="0" class="head" opacity="1.00">ﾁ</text>
+<text x="228" y="16" class="mid" opacity="1.00"><</text>
+<text x="228" y="32" class="mid" opacity="0.88">ｻ</text>
+<text x="228" y="48" class="mid" opacity="0.82">#</text>
+<text x="228" y="64" class="tail" opacity="0.76">ｲ</text>
+<text x="228" y="80" class="tail" opacity="0.70">ｾ</text>
+<text x="228" y="96" class="tail" opacity="0.64">#</text>
+<text x="228" y="112" class="tail" opacity="0.58">3</text>
+<text x="228" y="128" class="tail" opacity="0.52">ｺ</text>
+<text x="228" y="144" class="tail" opacity="0.46">@</text>
+<text x="228" y="160" class="tail" opacity="0.40">ｲ</text>
+<text x="228" y="176" class="tail" opacity="0.34">#</text>
+<text x="228" y="192" class="tail" opacity="0.28">ﾄ</text>
+<text x="228" y="208" class="tail" opacity="0.25">ｶ</text>
+<text x="228" y="224" class="tail" opacity="0.25">ﾁ</text>
+<text x="228" y="240" class="tail" opacity="0.25">#</text>
+</g>
+<g class="col c12">
+<text x="248" y="0" class="head" opacity="1.00">3</text>
+<text x="248" y="16" class="mid" opacity="1.00">ｻ</text>
+<text x="248" y="32" class="mid" opacity="0.88">2</text>
+<text x="248" y="48" class="mid" opacity="0.82">ｿ</text>
+<text x="248" y="64" class="tail" opacity="0.76">@</text>
+<text x="248" y="80" class="tail" opacity="0.70">@</text>
+<text x="248" y="96" class="tail" opacity="0.64">$</text>
+<text x="248" y="112" class="tail" opacity="0.58">1</text>
+<text x="248" y="128" class="tail" opacity="0.52">ｿ</text>
+<text x="248" y="144" class="tail" opacity="0.46">ｽ</text>
+<text x="248" y="160" class="tail" opacity="0.40">ﾀ</text>
+<text x="248" y="176" class="tail" opacity="0.34">5</text>
+<text x="248" y="192" class="tail" opacity="0.28">ｿ</text>
+<text x="248" y="208" class="tail" opacity="0.25">ｽ</text>
+<text x="248" y="224" class="tail" opacity="0.25">#</text>
+<text x="248" y="240" class="tail" opacity="0.25">></text>
+</g>
+<g class="col c13">
+<text x="268" y="0" class="head" opacity="1.00">2</text>
+<text x="268" y="16" class="mid" opacity="1.00">ｲ</text>
+<text x="268" y="32" class="mid" opacity="0.88">ｲ</text>
+<text x="268" y="48" class="mid" opacity="0.82">ﾂ</text>
+<text x="268" y="64" class="tail" opacity="0.76"><</text>
+<text x="268" y="80" class="tail" opacity="0.70">ﾁ</text>
+<text x="268" y="96" class="tail" opacity="0.64">ｽ</text>
+<text x="268" y="112" class="tail" opacity="0.58">2</text>
+<text x="268" y="128" class="tail" opacity="0.52">8</text>
+<text x="268" y="144" class="tail" opacity="0.46">2</text>
+<text x="268" y="160" class="tail" opacity="0.40">3</text>
+<text x="268" y="176" class="tail" opacity="0.34">ｶ</text>
+<text x="268" y="192" class="tail" opacity="0.28">ｿ</text>
+<text x="268" y="208" class="tail" opacity="0.25">ｷ</text>
+<text x="268" y="224" class="tail" opacity="0.25">ｿ</text>
+<text x="268" y="240" class="tail" opacity="0.25"><</text>
+</g>
+<g class="col c14">
+<text x="288" y="0" class="head" opacity="1.00">ｽ</text>
+<text x="288" y="16" class="mid" opacity="1.00">1</text>
+<text x="288" y="32" class="mid" opacity="0.88">ｾ</text>
+<text x="288" y="48" class="mid" opacity="0.82"><</text>
+<text x="288" y="64" class="tail" opacity="0.76">ｱ</text>
+<text x="288" y="80" class="tail" opacity="0.70"><</text>
+<text x="288" y="96" class="tail" opacity="0.64">2</text>
+<text x="288" y="112" class="tail" opacity="0.58">ｶ</text>
+<text x="288" y="128" class="tail" opacity="0.52">ｸ</text>
+<text x="288" y="144" class="tail" opacity="0.46">4</text>
+<text x="288" y="160" class="tail" opacity="0.40">ｽ</text>
+<text x="288" y="176" class="tail" opacity="0.34"><</text>
+<text x="288" y="192" class="tail" opacity="0.28">ｼ</text>
+<text x="288" y="208" class="tail" opacity="0.25">7</text>
+<text x="288" y="224" class="tail" opacity="0.25">1</text>
+<text x="288" y="240" class="tail" opacity="0.25">ｶ</text>
+</g>
+<g class="col c15">
+<text x="308" y="0" class="head" opacity="1.00">5</text>
+<text x="308" y="16" class="mid" opacity="1.00">9</text>
+<text x="308" y="32" class="mid" opacity="0.88">5</text>
+<text x="308" y="48" class="mid" opacity="0.82">ｶ</text>
+<text x="308" y="64" class="tail" opacity="0.76">ｻ</text>
+<text x="308" y="80" class="tail" opacity="0.70">ｻ</text>
+<text x="308" y="96" class="tail" opacity="0.64">ｹ</text>
+<text x="308" y="112" class="tail" opacity="0.58">ｲ</text>
+<text x="308" y="128" class="tail" opacity="0.52">ｺ</text>
+<text x="308" y="144" class="tail" opacity="0.46">9</text>
+<text x="308" y="160" class="tail" opacity="0.40">ｺ</text>
+<text x="308" y="176" class="tail" opacity="0.34"><</text>
+<text x="308" y="192" class="tail" opacity="0.28">2</text>
+<text x="308" y="208" class="tail" opacity="0.25">ｺ</text>
+<text x="308" y="224" class="tail" opacity="0.25">ｹ</text>
+<text x="308" y="240" class="tail" opacity="0.25">ｲ</text>
+</g>
+<g class="col c16">
+<text x="328" y="0" class="head" opacity="1.00">ｱ</text>
+<text x="328" y="16" class="mid" opacity="1.00">ｷ</text>
+<text x="328" y="32" class="mid" opacity="0.88">#</text>
+<text x="328" y="48" class="mid" opacity="0.82">ｹ</text>
+<text x="328" y="64" class="tail" opacity="0.76">7</text>
+<text x="328" y="80" class="tail" opacity="0.70">ｽ</text>
+<text x="328" y="96" class="tail" opacity="0.64">ｾ</text>
+<text x="328" y="112" class="tail" opacity="0.58">ｲ</text>
+<text x="328" y="128" class="tail" opacity="0.52">ﾁ</text>
+<text x="328" y="144" class="tail" opacity="0.46">ｾ</text>
+<text x="328" y="160" class="tail" opacity="0.40">ﾃ</text>
+<text x="328" y="176" class="tail" opacity="0.34">$</text>
+<text x="328" y="192" class="tail" opacity="0.28">ﾀ</text>
+<text x="328" y="208" class="tail" opacity="0.25">0</text>
+<text x="328" y="224" class="tail" opacity="0.25">ﾁ</text>
+<text x="328" y="240" class="tail" opacity="0.25">@</text>
+</g>
+<g class="col c17">
+<text x="348" y="0" class="head" opacity="1.00">6</text>
+<text x="348" y="16" class="mid" opacity="1.00">ｹ</text>
+<text x="348" y="32" class="mid" opacity="0.88">ｴ</text>
+<text x="348" y="48" class="mid" opacity="0.82">2</text>
+<text x="348" y="64" class="tail" opacity="0.76">9</text>
+<text x="348" y="80" class="tail" opacity="0.70">#</text>
+<text x="348" y="96" class="tail" opacity="0.64">6</text>
+<text x="348" y="112" class="tail" opacity="0.58">$</text>
+<text x="348" y="128" class="tail" opacity="0.52">ｹ</text>
+<text x="348" y="144" class="tail" opacity="0.46">@</text>
+<text x="348" y="160" class="tail" opacity="0.40">ｺ</text>
+<text x="348" y="176" class="tail" opacity="0.34">#</text>
+<text x="348" y="192" class="tail" opacity="0.28">$</text>
+<text x="348" y="208" class="tail" opacity="0.25">ｲ</text>
+<text x="348" y="224" class="tail" opacity="0.25">8</text>
+<text x="348" y="240" class="tail" opacity="0.25">ｼ</text>
+</g>
+<g class="col c18">
+<text x="368" y="0" class="head" opacity="1.00">ｱ</text>
+<text x="368" y="16" class="mid" opacity="1.00">ｺ</text>
+<text x="368" y="32" class="mid" opacity="0.88">ｼ</text>
+<text x="368" y="48" class="mid" opacity="0.82">ｺ</text>
+<text x="368" y="64" class="tail" opacity="0.76"><</text>
+<text x="368" y="80" class="tail" opacity="0.70">ｸ</text>
+<text x="368" y="96" class="tail" opacity="0.64">ｴ</text>
+<text x="368" y="112" class="tail" opacity="0.58">0</text>
+<text x="368" y="128" class="tail" opacity="0.52">#</text>
+<text x="368" y="144" class="tail" opacity="0.46">#</text>
+<text x="368" y="160" class="tail" opacity="0.40"><</text>
+<text x="368" y="176" class="tail" opacity="0.34">ｷ</text>
+<text x="368" y="192" class="tail" opacity="0.28">ｴ</text>
+<text x="368" y="208" class="tail" opacity="0.25">ﾀ</text>
+<text x="368" y="224" class="tail" opacity="0.25">ｽ</text>
+<text x="368" y="240" class="tail" opacity="0.25">ﾂ</text>
+</g>
+<g class="col c19">
+<text x="388" y="0" class="head" opacity="1.00">ｳ</text>
+<text x="388" y="16" class="mid" opacity="1.00">ｷ</text>
+<text x="388" y="32" class="mid" opacity="0.88">$</text>
+<text x="388" y="48" class="mid" opacity="0.82">8</text>
+<text x="388" y="64" class="tail" opacity="0.76">ｲ</text>
+<text x="388" y="80" class="tail" opacity="0.70">ｵ</text>
+<text x="388" y="96" class="tail" opacity="0.64">8</text>
+<text x="388" y="112" class="tail" opacity="0.58">0</text>
+<text x="388" y="128" class="tail" opacity="0.52">$</text>
+<text x="388" y="144" class="tail" opacity="0.46">$</text>
+<text x="388" y="160" class="tail" opacity="0.40">ｽ</text>
+<text x="388" y="176" class="tail" opacity="0.34">ﾂ</text>
+<text x="388" y="192" class="tail" opacity="0.28">8</text>
+<text x="388" y="208" class="tail" opacity="0.25">$</text>
+<text x="388" y="224" class="tail" opacity="0.25">@</text>
+<text x="388" y="240" class="tail" opacity="0.25"><</text>
+</g>
+<g class="col c20">
+<text x="408" y="0" class="head" opacity="1.00">$</text>
+<text x="408" y="16" class="mid" opacity="1.00">ﾀ</text>
+<text x="408" y="32" class="mid" opacity="0.88">#</text>
+<text x="408" y="48" class="mid" opacity="0.82">ﾁ</text>
+<text x="408" y="64" class="tail" opacity="0.76">ｽ</text>
+<text x="408" y="80" class="tail" opacity="0.70">8</text>
+<text x="408" y="96" class="tail" opacity="0.64">ｹ</text>
+<text x="408" y="112" class="tail" opacity="0.58">6</text>
+<text x="408" y="128" class="tail" opacity="0.52">ｸ</text>
+<text x="408" y="144" class="tail" opacity="0.46">5</text>
+<text x="408" y="160" class="tail" opacity="0.40">8</text>
+<text x="408" y="176" class="tail" opacity="0.34">0</text>
+<text x="408" y="192" class="tail" opacity="0.28">ｵ</text>
+<text x="408" y="208" class="tail" opacity="0.25">ﾀ</text>
+<text x="408" y="224" class="tail" opacity="0.25">7</text>
+<text x="408" y="240" class="tail" opacity="0.25">ｵ</text>
+</g>
+<g class="col c21">
+<text x="428" y="0" class="head" opacity="1.00">ｾ</text>
+<text x="428" y="16" class="mid" opacity="1.00">ﾄ</text>
+<text x="428" y="32" class="mid" opacity="0.88">ｸ</text>
+<text x="428" y="48" class="mid" opacity="0.82">ｺ</text>
+<text x="428" y="64" class="tail" opacity="0.76">3</text>
+<text x="428" y="80" class="tail" opacity="0.70">ｺ</text>
+<text x="428" y="96" class="tail" opacity="0.64">ﾁ</text>
+<text x="428" y="112" class="tail" opacity="0.58">ｹ</text>
+<text x="428" y="128" class="tail" opacity="0.52">9</text>
+<text x="428" y="144" class="tail" opacity="0.46">ｿ</text>
+<text x="428" y="160" class="tail" opacity="0.40">ｷ</text>
+<text x="428" y="176" class="tail" opacity="0.34">5</text>
+<text x="428" y="192" class="tail" opacity="0.28">></text>
+<text x="428" y="208" class="tail" opacity="0.25">ｻ</text>
+<text x="428" y="224" class="tail" opacity="0.25">ｿ</text>
+<text x="428" y="240" class="tail" opacity="0.25">ｻ</text>
+</g>
+<g class="col c22">
+<text x="448" y="0" class="head" opacity="1.00">7</text>
+<text x="448" y="16" class="mid" opacity="1.00">$</text>
+<text x="448" y="32" class="mid" opacity="0.88">5</text>
+<text x="448" y="48" class="mid" opacity="0.82">1</text>
+<text x="448" y="64" class="tail" opacity="0.76">6</text>
+<text x="448" y="80" class="tail" opacity="0.70">ｽ</text>
+<text x="448" y="96" class="tail" opacity="0.64">2</text>
+<text x="448" y="112" class="tail" opacity="0.58">0</text>
+<text x="448" y="128" class="tail" opacity="0.52">ｶ</text>
+<text x="448" y="144" class="tail" opacity="0.46">3</text>
+<text x="448" y="160" class="tail" opacity="0.40">ｲ</text>
+<text x="448" y="176" class="tail" opacity="0.34">1</text>
+<text x="448" y="192" class="tail" opacity="0.28">9</text>
+<text x="448" y="208" class="tail" opacity="0.25">8</text>
+<text x="448" y="224" class="tail" opacity="0.25">ｲ</text>
+<text x="448" y="240" class="tail" opacity="0.25">4</text>
+</g>
+<g class="col c23">
+<text x="468" y="0" class="head" opacity="1.00">1</text>
+<text x="468" y="16" class="mid" opacity="1.00">#</text>
+<text x="468" y="32" class="mid" opacity="0.88">ﾃ</text>
+<text x="468" y="48" class="mid" opacity="0.82">$</text>
+<text x="468" y="64" class="tail" opacity="0.76">ｵ</text>
+<text x="468" y="80" class="tail" opacity="0.70">ｸ</text>
+<text x="468" y="96" class="tail" opacity="0.64">ｿ</text>
+<text x="468" y="112" class="tail" opacity="0.58">ｷ</text>
+<text x="468" y="128" class="tail" opacity="0.52">ｶ</text>
+<text x="468" y="144" class="tail" opacity="0.46">ﾁ</text>
+<text x="468" y="160" class="tail" opacity="0.40">ﾂ</text>
+<text x="468" y="176" class="tail" opacity="0.34">ｳ</text>
+<text x="468" y="192" class="tail" opacity="0.28">ｼ</text>
+<text x="468" y="208" class="tail" opacity="0.25">ﾂ</text>
+<text x="468" y="224" class="tail" opacity="0.25">ｹ</text>
+<text x="468" y="240" class="tail" opacity="0.25">7</text>
+</g>
+<g class="col c24">
+<text x="488" y="0" class="head" opacity="1.00">ﾁ</text>
+<text x="488" y="16" class="mid" opacity="1.00">5</text>
+<text x="488" y="32" class="mid" opacity="0.88">ｺ</text>
+<text x="488" y="48" class="mid" opacity="0.82">@</text>
+<text x="488" y="64" class="tail" opacity="0.76">$</text>
+<text x="488" y="80" class="tail" opacity="0.70">></text>
+<text x="488" y="96" class="tail" opacity="0.64">0</text>
+<text x="488" y="112" class="tail" opacity="0.58">ｶ</text>
+<text x="488" y="128" class="tail" opacity="0.52">ﾂ</text>
+<text x="488" y="144" class="tail" opacity="0.46">ｴ</text>
+<text x="488" y="160" class="tail" opacity="0.40">ｼ</text>
+<text x="488" y="176" class="tail" opacity="0.34">7</text>
+<text x="488" y="192" class="tail" opacity="0.28">ｵ</text>
+<text x="488" y="208" class="tail" opacity="0.25">ﾂ</text>
+<text x="488" y="224" class="tail" opacity="0.25">ｲ</text>
+<text x="488" y="240" class="tail" opacity="0.25">ｶ</text>
+</g>
+<g class="col c25">
+<text x="508" y="0" class="head" opacity="1.00">ﾁ</text>
+<text x="508" y="16" class="mid" opacity="1.00">ｶ</text>
+<text x="508" y="32" class="mid" opacity="0.88">ｿ</text>
+<text x="508" y="48" class="mid" opacity="0.82">ｵ</text>
+<text x="508" y="64" class="tail" opacity="0.76">ﾁ</text>
+<text x="508" y="80" class="tail" opacity="0.70">ｸ</text>
+<text x="508" y="96" class="tail" opacity="0.64">9</text>
+<text x="508" y="112" class="tail" opacity="0.58">ｱ</text>
+<text x="508" y="128" class="tail" opacity="0.52">1</text>
+<text x="508" y="144" class="tail" opacity="0.46">6</text>
+<text x="508" y="160" class="tail" opacity="0.40">ﾂ</text>
+<text x="508" y="176" class="tail" opacity="0.34">ｹ</text>
+<text x="508" y="192" class="tail" opacity="0.28">ｳ</text>
+<text x="508" y="208" class="tail" opacity="0.25">#</text>
+<text x="508" y="224" class="tail" opacity="0.25">ﾀ</text>
+<text x="508" y="240" class="tail" opacity="0.25">ｸ</text>
+</g>
+<g class="col c26">
+<text x="528" y="0" class="head" opacity="1.00">ｻ</text>
+<text x="528" y="16" class="mid" opacity="1.00">ﾁ</text>
+<text x="528" y="32" class="mid" opacity="0.88">ｴ</text>
+<text x="528" y="48" class="mid" opacity="0.82">ｼ</text>
+<text x="528" y="64" class="tail" opacity="0.76">ｽ</text>
+<text x="528" y="80" class="tail" opacity="0.70">ﾄ</text>
+<text x="528" y="96" class="tail" opacity="0.64">ﾄ</text>
+<text x="528" y="112" class="tail" opacity="0.58">#</text>
+<text x="528" y="128" class="tail" opacity="0.52">ｾ</text>
+<text x="528" y="144" class="tail" opacity="0.46">ﾃ</text>
+<text x="528" y="160" class="tail" opacity="0.40">8</text>
+<text x="528" y="176" class="tail" opacity="0.34">$</text>
+<text x="528" y="192" class="tail" opacity="0.28">ｼ</text>
+<text x="528" y="208" class="tail" opacity="0.25">ﾂ</text>
+<text x="528" y="224" class="tail" opacity="0.25">2</text>
+<text x="528" y="240" class="tail" opacity="0.25">ｲ</text>
+</g>
+<g class="col c27">
+<text x="548" y="0" class="head" opacity="1.00">ﾁ</text>
+<text x="548" y="16" class="mid" opacity="1.00">ｳ</text>
+<text x="548" y="32" class="mid" opacity="0.88">ｱ</text>
+<text x="548" y="48" class="mid" opacity="0.82">ｲ</text>
+<text x="548" y="64" class="tail" opacity="0.76">$</text>
+<text x="548" y="80" class="tail" opacity="0.70">ｽ</text>
+<text x="548" y="96" class="tail" opacity="0.64">$</text>
+<text x="548" y="112" class="tail" opacity="0.58"><</text>
+<text x="548" y="128" class="tail" opacity="0.52">ﾀ</text>
+<text x="548" y="144" class="tail" opacity="0.46">8</text>
+<text x="548" y="160" class="tail" opacity="0.40">ｷ</text>
+<text x="548" y="176" class="tail" opacity="0.34">7</text>
+<text x="548" y="192" class="tail" opacity="0.28">></text>
+<text x="548" y="208" class="tail" opacity="0.25">@</text>
+<text x="548" y="224" class="tail" opacity="0.25">5</text>
+<text x="548" y="240" class="tail" opacity="0.25">$</text>
+</g>
+<g class="col c28">
+<text x="568" y="0" class="head" opacity="1.00">ﾄ</text>
+<text x="568" y="16" class="mid" opacity="1.00">ｾ</text>
+<text x="568" y="32" class="mid" opacity="0.88">ｿ</text>
+<text x="568" y="48" class="mid" opacity="0.82">1</text>
+<text x="568" y="64" class="tail" opacity="0.76">ｽ</text>
+<text x="568" y="80" class="tail" opacity="0.70">ｹ</text>
+<text x="568" y="96" class="tail" opacity="0.64">5</text>
+<text x="568" y="112" class="tail" opacity="0.58">2</text>
+<text x="568" y="128" class="tail" opacity="0.52">ｴ</text>
+<text x="568" y="144" class="tail" opacity="0.46">ｹ</text>
+<text x="568" y="160" class="tail" opacity="0.40">ｱ</text>
+<text x="568" y="176" class="tail" opacity="0.34">ｵ</text>
+<text x="568" y="192" class="tail" opacity="0.28">ﾁ</text>
+<text x="568" y="208" class="tail" opacity="0.25">7</text>
+<text x="568" y="224" class="tail" opacity="0.25">ｻ</text>
+<text x="568" y="240" class="tail" opacity="0.25">ｴ</text>
+</g>
+<g class="col c29">
+<text x="588" y="0" class="head" opacity="1.00">ｶ</text>
+<text x="588" y="16" class="mid" opacity="1.00">4</text>
+<text x="588" y="32" class="mid" opacity="0.88">$</text>
+<text x="588" y="48" class="mid" opacity="0.82">ﾃ</text>
+<text x="588" y="64" class="tail" opacity="0.76">ﾀ</text>
+<text x="588" y="80" class="tail" opacity="0.70">ﾃ</text>
+<text x="588" y="96" class="tail" opacity="0.64">ｳ</text>
+<text x="588" y="112" class="tail" opacity="0.58">9</text>
+<text x="588" y="128" class="tail" opacity="0.52">ｼ</text>
+<text x="588" y="144" class="tail" opacity="0.46">ｻ</text>
+<text x="588" y="160" class="tail" opacity="0.40">ﾂ</text>
+<text x="588" y="176" class="tail" opacity="0.34">8</text>
+<text x="588" y="192" class="tail" opacity="0.28">ｱ</text>
+<text x="588" y="208" class="tail" opacity="0.25">ﾁ</text>
+<text x="588" y="224" class="tail" opacity="0.25">3</text>
+<text x="588" y="240" class="tail" opacity="0.25">1</text>
+</g>
+<g class="col c30">
+<text x="608" y="0" class="head" opacity="1.00">0</text>
+<text x="608" y="16" class="mid" opacity="1.00">ﾀ</text>
+<text x="608" y="32" class="mid" opacity="0.88">ｳ</text>
+<text x="608" y="48" class="mid" opacity="0.82">ﾄ</text>
+<text x="608" y="64" class="tail" opacity="0.76">ｾ</text>
+<text x="608" y="80" class="tail" opacity="0.70">2</text>
+<text x="608" y="96" class="tail" opacity="0.64">ｼ</text>
+<text x="608" y="112" class="tail" opacity="0.58">ｱ</text>
+<text x="608" y="128" class="tail" opacity="0.52">1</text>
+<text x="608" y="144" class="tail" opacity="0.46">4</text>
+<text x="608" y="160" class="tail" opacity="0.40">ｶ</text>
+<text x="608" y="176" class="tail" opacity="0.34"><</text>
+<text x="608" y="192" class="tail" opacity="0.28">ﾂ</text>
+<text x="608" y="208" class="tail" opacity="0.25">$</text>
+<text x="608" y="224" class="tail" opacity="0.25">ｽ</text>
+<text x="608" y="240" class="tail" opacity="0.25">ﾀ</text>
+</g>
+<g class="col c31">
+<text x="628" y="0" class="head" opacity="1.00">$</text>
+<text x="628" y="16" class="mid" opacity="1.00">ｱ</text>
+<text x="628" y="32" class="mid" opacity="0.88">ｶ</text>
+<text x="628" y="48" class="mid" opacity="0.82">ﾁ</text>
+<text x="628" y="64" class="tail" opacity="0.76">ｶ</text>
+<text x="628" y="80" class="tail" opacity="0.70">ｺ</text>
+<text x="628" y="96" class="tail" opacity="0.64">5</text>
+<text x="628" y="112" class="tail" opacity="0.58">ｳ</text>
+<text x="628" y="128" class="tail" opacity="0.52">5</text>
+<text x="628" y="144" class="tail" opacity="0.46">ｲ</text>
+<text x="628" y="160" class="tail" opacity="0.40">ﾄ</text>
+<text x="628" y="176" class="tail" opacity="0.34">ﾄ</text>
+<text x="628" y="192" class="tail" opacity="0.28">ｿ</text>
+<text x="628" y="208" class="tail" opacity="0.25">ｶ</text>
+<text x="628" y="224" class="tail" opacity="0.25">#</text>
+<text x="628" y="240" class="tail" opacity="0.25">ｺ</text>
+</g>
+<g class="col c32">
+<text x="648" y="0" class="head" opacity="1.00">4</text>
+<text x="648" y="16" class="mid" opacity="1.00">0</text>
+<text x="648" y="32" class="mid" opacity="0.88">></text>
+<text x="648" y="48" class="mid" opacity="0.82">ｺ</text>
+<text x="648" y="64" class="tail" opacity="0.76">ﾃ</text>
+<text x="648" y="80" class="tail" opacity="0.70">ｺ</text>
+<text x="648" y="96" class="tail" opacity="0.64">ｳ</text>
+<text x="648" y="112" class="tail" opacity="0.58">$</text>
+<text x="648" y="128" class="tail" opacity="0.52">7</text>
+<text x="648" y="144" class="tail" opacity="0.46">$</text>
+<text x="648" y="160" class="tail" opacity="0.40">ｹ</text>
+<text x="648" y="176" class="tail" opacity="0.34">#</text>
+<text x="648" y="192" class="tail" opacity="0.28">$</text>
+<text x="648" y="208" class="tail" opacity="0.25">ｲ</text>
+<text x="648" y="224" class="tail" opacity="0.25">ｿ</text>
+<text x="648" y="240" class="tail" opacity="0.25">ｶ</text>
+</g>
+<g class="col c33">
+<text x="668" y="0" class="head" opacity="1.00">ｲ</text>
+<text x="668" y="16" class="mid" opacity="1.00">ｳ</text>
+<text x="668" y="32" class="mid" opacity="0.88">ｹ</text>
+<text x="668" y="48" class="mid" opacity="0.82">3</text>
+<text x="668" y="64" class="tail" opacity="0.76">ｷ</text>
+<text x="668" y="80" class="tail" opacity="0.70">4</text>
+<text x="668" y="96" class="tail" opacity="0.64">8</text>
+<text x="668" y="112" class="tail" opacity="0.58">ｴ</text>
+<text x="668" y="128" class="tail" opacity="0.52">ｲ</text>
+<text x="668" y="144" class="tail" opacity="0.46">@</text>
+<text x="668" y="160" class="tail" opacity="0.40">ﾀ</text>
+<text x="668" y="176" class="tail" opacity="0.34">></text>
+<text x="668" y="192" class="tail" opacity="0.28">ﾁ</text>
+<text x="668" y="208" class="tail" opacity="0.25">ｱ</text>
+<text x="668" y="224" class="tail" opacity="0.25">9</text>
+<text x="668" y="240" class="tail" opacity="0.25">ｵ</text>
+</g>
+<g class="col c34">
+<text x="688" y="0" class="head" opacity="1.00">$</text>
+<text x="688" y="16" class="mid" opacity="1.00">@</text>
+<text x="688" y="32" class="mid" opacity="0.88">ｶ</text>
+<text x="688" y="48" class="mid" opacity="0.82">#</text>
+<text x="688" y="64" class="tail" opacity="0.76">ｵ</text>
+<text x="688" y="80" class="tail" opacity="0.70"><</text>
+<text x="688" y="96" class="tail" opacity="0.64">ﾁ</text>
+<text x="688" y="112" class="tail" opacity="0.58">ｵ</text>
+<text x="688" y="128" class="tail" opacity="0.52">ﾁ</text>
+<text x="688" y="144" class="tail" opacity="0.46">ﾀ</text>
+<text x="688" y="160" class="tail" opacity="0.40">ｾ</text>
+<text x="688" y="176" class="tail" opacity="0.34">ｿ</text>
+<text x="688" y="192" class="tail" opacity="0.28">9</text>
+<text x="688" y="208" class="tail" opacity="0.25">></text>
+<text x="688" y="224" class="tail" opacity="0.25">4</text>
+<text x="688" y="240" class="tail" opacity="0.25">ｵ</text>
+</g>
+<g class="col c35">
+<text x="708" y="0" class="head" opacity="1.00"><</text>
+<text x="708" y="16" class="mid" opacity="1.00">ﾃ</text>
+<text x="708" y="32" class="mid" opacity="0.88">ｳ</text>
+<text x="708" y="48" class="mid" opacity="0.82">ｽ</text>
+<text x="708" y="64" class="tail" opacity="0.76">ｵ</text>
+<text x="708" y="80" class="tail" opacity="0.70">ｺ</text>
+<text x="708" y="96" class="tail" opacity="0.64">1</text>
+<text x="708" y="112" class="tail" opacity="0.58">ﾁ</text>
+<text x="708" y="128" class="tail" opacity="0.52">ﾄ</text>
+<text x="708" y="144" class="tail" opacity="0.46">ｹ</text>
+<text x="708" y="160" class="tail" opacity="0.40">ｱ</text>
+<text x="708" y="176" class="tail" opacity="0.34"><</text>
+<text x="708" y="192" class="tail" opacity="0.28">ｴ</text>
+<text x="708" y="208" class="tail" opacity="0.25">></text>
+<text x="708" y="224" class="tail" opacity="0.25">ﾂ</text>
+<text x="708" y="240" class="tail" opacity="0.25">ｷ</text>
+</g>
+<g class="col c36">
+<text x="728" y="0" class="head" opacity="1.00">ｾ</text>
+<text x="728" y="16" class="mid" opacity="1.00">></text>
+<text x="728" y="32" class="mid" opacity="0.88">ﾃ</text>
+<text x="728" y="48" class="mid" opacity="0.82">#</text>
+<text x="728" y="64" class="tail" opacity="0.76">ﾃ</text>
+<text x="728" y="80" class="tail" opacity="0.70">9</text>
+<text x="728" y="96" class="tail" opacity="0.64">9</text>
+<text x="728" y="112" class="tail" opacity="0.58">9</text>
+<text x="728" y="128" class="tail" opacity="0.52">ｸ</text>
+<text x="728" y="144" class="tail" opacity="0.46">ｽ</text>
+<text x="728" y="160" class="tail" opacity="0.40">ﾄ</text>
+<text x="728" y="176" class="tail" opacity="0.34">ｶ</text>
+<text x="728" y="192" class="tail" opacity="0.28"><</text>
+<text x="728" y="208" class="tail" opacity="0.25">ｲ</text>
+<text x="728" y="224" class="tail" opacity="0.25">ﾃ</text>
+<text x="728" y="240" class="tail" opacity="0.25">9</text>
+</g>
+<g class="col c37">
+<text x="748" y="0" class="head" opacity="1.00">ｵ</text>
+<text x="748" y="16" class="mid" opacity="1.00">$</text>
+<text x="748" y="32" class="mid" opacity="0.88">8</text>
+<text x="748" y="48" class="mid" opacity="0.82">ﾂ</text>
+<text x="748" y="64" class="tail" opacity="0.76">4</text>
+<text x="748" y="80" class="tail" opacity="0.70">ｾ</text>
+<text x="748" y="96" class="tail" opacity="0.64">ｾ</text>
+<text x="748" y="112" class="tail" opacity="0.58">ｵ</text>
+<text x="748" y="128" class="tail" opacity="0.52">ｶ</text>
+<text x="748" y="144" class="tail" opacity="0.46">ｺ</text>
+<text x="748" y="160" class="tail" opacity="0.40">#</text>
+<text x="748" y="176" class="tail" opacity="0.34">ﾁ</text>
+<text x="748" y="192" class="tail" opacity="0.28">3</text>
+<text x="748" y="208" class="tail" opacity="0.25">ｹ</text>
+<text x="748" y="224" class="tail" opacity="0.25">$</text>
+<text x="748" y="240" class="tail" opacity="0.25">ﾂ</text>
+</g>
+<g class="col c38">
+<text x="768" y="0" class="head" opacity="1.00">ｸ</text>
+<text x="768" y="16" class="mid" opacity="1.00">3</text>
+<text x="768" y="32" class="mid" opacity="0.88">ｿ</text>
+<text x="768" y="48" class="mid" opacity="0.82">></text>
+<text x="768" y="64" class="tail" opacity="0.76">></text>
+<text x="768" y="80" class="tail" opacity="0.70">5</text>
+<text x="768" y="96" class="tail" opacity="0.64">ｲ</text>
+<text x="768" y="112" class="tail" opacity="0.58">ｻ</text>
+<text x="768" y="128" class="tail" opacity="0.52">ｱ</text>
+<text x="768" y="144" class="tail" opacity="0.46">></text>
+<text x="768" y="160" class="tail" opacity="0.40">8</text>
+<text x="768" y="176" class="tail" opacity="0.34">5</text>
+<text x="768" y="192" class="tail" opacity="0.28">ﾄ</text>
+<text x="768" y="208" class="tail" opacity="0.25">ｺ</text>
+<text x="768" y="224" class="tail" opacity="0.25">6</text>
+<text x="768" y="240" class="tail" opacity="0.25">2</text>
+</g>
+<g class="col c39">
+<text x="788" y="0" class="head" opacity="1.00">4</text>
+<text x="788" y="16" class="mid" opacity="1.00">0</text>
+<text x="788" y="32" class="mid" opacity="0.88">ｸ</text>
+<text x="788" y="48" class="mid" opacity="0.82">1</text>
+<text x="788" y="64" class="tail" opacity="0.76">ｱ</text>
+<text x="788" y="80" class="tail" opacity="0.70">0</text>
+<text x="788" y="96" class="tail" opacity="0.64">1</text>
+<text x="788" y="112" class="tail" opacity="0.58">5</text>
+<text x="788" y="128" class="tail" opacity="0.52">ｸ</text>
+<text x="788" y="144" class="tail" opacity="0.46">ｽ</text>
+<text x="788" y="160" class="tail" opacity="0.40">ｱ</text>
+<text x="788" y="176" class="tail" opacity="0.34">ﾃ</text>
+<text x="788" y="192" class="tail" opacity="0.28">ﾁ</text>
+<text x="788" y="208" class="tail" opacity="0.25">3</text>
+<text x="788" y="224" class="tail" opacity="0.25">ｵ</text>
+<text x="788" y="240" class="tail" opacity="0.25">5</text>
+</g>
+<g class="col c40">
+<text x="808" y="0" class="head" opacity="1.00">4</text>
+<text x="808" y="16" class="mid" opacity="1.00">ｵ</text>
+<text x="808" y="32" class="mid" opacity="0.88">3</text>
+<text x="808" y="48" class="mid" opacity="0.82">7</text>
+<text x="808" y="64" class="tail" opacity="0.76">ﾂ</text>
+<text x="808" y="80" class="tail" opacity="0.70">ｴ</text>
+<text x="808" y="96" class="tail" opacity="0.64">ﾂ</text>
+<text x="808" y="112" class="tail" opacity="0.58">ｷ</text>
+<text x="808" y="128" class="tail" opacity="0.52">ｴ</text>
+<text x="808" y="144" class="tail" opacity="0.46">ﾃ</text>
+<text x="808" y="160" class="tail" opacity="0.40">ｺ</text>
+<text x="808" y="176" class="tail" opacity="0.34">ﾀ</text>
+<text x="808" y="192" class="tail" opacity="0.28">ﾂ</text>
+<text x="808" y="208" class="tail" opacity="0.25">7</text>
+<text x="808" y="224" class="tail" opacity="0.25">$</text>
+<text x="808" y="240" class="tail" opacity="0.25">0</text>
+</g>
+<g class="col c41">
+<text x="828" y="0" class="head" opacity="1.00">ｽ</text>
+<text x="828" y="16" class="mid" opacity="1.00">3</text>
+<text x="828" y="32" class="mid" opacity="0.88">7</text>
+<text x="828" y="48" class="mid" opacity="0.82">ｲ</text>
+<text x="828" y="64" class="tail" opacity="0.76">5</text>
+<text x="828" y="80" class="tail" opacity="0.70">ｾ</text>
+<text x="828" y="96" class="tail" opacity="0.64">ｶ</text>
+<text x="828" y="112" class="tail" opacity="0.58">ｴ</text>
+<text x="828" y="128" class="tail" opacity="0.52">6</text>
+<text x="828" y="144" class="tail" opacity="0.46">8</text>
+<text x="828" y="160" class="tail" opacity="0.40">ｹ</text>
+<text x="828" y="176" class="tail" opacity="0.34">ﾃ</text>
+<text x="828" y="192" class="tail" opacity="0.28">></text>
+<text x="828" y="208" class="tail" opacity="0.25">ｴ</text>
+<text x="828" y="224" class="tail" opacity="0.25">ｹ</text>
+<text x="828" y="240" class="tail" opacity="0.25">ｻ</text>
+</g>
+<g class="col c42">
+<text x="848" y="0" class="head" opacity="1.00"><</text>
+<text x="848" y="16" class="mid" opacity="1.00">6</text>
+<text x="848" y="32" class="mid" opacity="0.88">1</text>
+<text x="848" y="48" class="mid" opacity="0.82">ﾃ</text>
+<text x="848" y="64" class="tail" opacity="0.76">ﾄ</text>
+<text x="848" y="80" class="tail" opacity="0.70">ﾁ</text>
+<text x="848" y="96" class="tail" opacity="0.64">ﾁ</text>
+<text x="848" y="112" class="tail" opacity="0.58">5</text>
+<text x="848" y="128" class="tail" opacity="0.52">ﾀ</text>
+<text x="848" y="144" class="tail" opacity="0.46">ﾄ</text>
+<text x="848" y="160" class="tail" opacity="0.40"><</text>
+<text x="848" y="176" class="tail" opacity="0.34">5</text>
+<text x="848" y="192" class="tail" opacity="0.28">ｸ</text>
+<text x="848" y="208" class="tail" opacity="0.25">ｻ</text>
+<text x="848" y="224" class="tail" opacity="0.25">ｻ</text>
+<text x="848" y="240" class="tail" opacity="0.25">ｵ</text>
+</g>
+<g class="col c43">
+<text x="868" y="0" class="head" opacity="1.00">ｾ</text>
+<text x="868" y="16" class="mid" opacity="1.00">$</text>
+<text x="868" y="32" class="mid" opacity="0.88">></text>
+<text x="868" y="48" class="mid" opacity="0.82">ｿ</text>
+<text x="868" y="64" class="tail" opacity="0.76">8</text>
+<text x="868" y="80" class="tail" opacity="0.70">1</text>
+<text x="868" y="96" class="tail" opacity="0.64">8</text>
+<text x="868" y="112" class="tail" opacity="0.58">7</text>
+<text x="868" y="128" class="tail" opacity="0.52">ｹ</text>
+<text x="868" y="144" class="tail" opacity="0.46">ｽ</text>
+<text x="868" y="160" class="tail" opacity="0.40">ﾀ</text>
+<text x="868" y="176" class="tail" opacity="0.34">ｶ</text>
+<text x="868" y="192" class="tail" opacity="0.28">ｼ</text>
+<text x="868" y="208" class="tail" opacity="0.25">1</text>
+<text x="868" y="224" class="tail" opacity="0.25">ｶ</text>
+<text x="868" y="240" class="tail" opacity="0.25">0</text>
+</g>
+<g class="col c44">
+<text x="888" y="0" class="head" opacity="1.00">ﾀ</text>
+<text x="888" y="16" class="mid" opacity="1.00">3</text>
+<text x="888" y="32" class="mid" opacity="0.88">ﾁ</text>
+<text x="888" y="48" class="mid" opacity="0.82">ｽ</text>
+<text x="888" y="64" class="tail" opacity="0.76">ｲ</text>
+<text x="888" y="80" class="tail" opacity="0.70">6</text>
+<text x="888" y="96" class="tail" opacity="0.64">4</text>
+<text x="888" y="112" class="tail" opacity="0.58">6</text>
+<text x="888" y="128" class="tail" opacity="0.52">#</text>
+<text x="888" y="144" class="tail" opacity="0.46">ｾ</text>
+<text x="888" y="160" class="tail" opacity="0.40">4</text>
+<text x="888" y="176" class="tail" opacity="0.34">ﾂ</text>
+<text x="888" y="192" class="tail" opacity="0.28">1</text>
+<text x="888" y="208" class="tail" opacity="0.25">ｴ</text>
+<text x="888" y="224" class="tail" opacity="0.25">></text>
+<text x="888" y="240" class="tail" opacity="0.25">ﾂ</text>
+</g>
+<g class="col c45">
+<text x="908" y="0" class="head" opacity="1.00">3</text>
+<text x="908" y="16" class="mid" opacity="1.00">ｹ</text>
+<text x="908" y="32" class="mid" opacity="0.88">$</text>
+<text x="908" y="48" class="mid" opacity="0.82">#</text>
+<text x="908" y="64" class="tail" opacity="0.76">ｾ</text>
+<text x="908" y="80" class="tail" opacity="0.70">ｶ</text>
+<text x="908" y="96" class="tail" opacity="0.64">ﾂ</text>
+<text x="908" y="112" class="tail" opacity="0.58">ﾀ</text>
+<text x="908" y="128" class="tail" opacity="0.52">4</text>
+<text x="908" y="144" class="tail" opacity="0.46">5</text>
+<text x="908" y="160" class="tail" opacity="0.40">8</text>
+<text x="908" y="176" class="tail" opacity="0.34">7</text>
+<text x="908" y="192" class="tail" opacity="0.28">ﾄ</text>
+<text x="908" y="208" class="tail" opacity="0.25">ｲ</text>
+<text x="908" y="224" class="tail" opacity="0.25">ｹ</text>
+<text x="908" y="240" class="tail" opacity="0.25">ｳ</text>
+</g>
+<rect width="100%" height="100%" fill="url(#fade)" rx="12"/>
+<rect class="plate" x="80" y="75" width="760" height="125" rx="10"/>
+<text class="t1" x="460" y="120" text-anchor="middle">Boryslav Deputat</text>
+<text class="t2" x="460" y="150" text-anchor="middle">Cloud Infrastructure  -  SRE  -  Platform Engineering</text>
+<text class="t3" x="460" y="175" text-anchor="middle">US citizen  -  Ukrainian roots  -  Austin, TX</text>
+</svg>
