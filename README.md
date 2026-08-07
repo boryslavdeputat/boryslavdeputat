@@ -151,6 +151,14 @@ Each kit: **management overview**, **who to call at AWS/Microsoft**, **sysadmin 
 
 ---
 
+
+---
+
+
+
+---
+
+
 ### Contact
 
 | | |
@@ -161,11 +169,6 @@ Each kit: **management overview**, **who to call at AWS/Microsoft**, **sysadmin 
 | **Email** | **info@boryslavdeputat.com** |
 | **Website** | [boryslavdeputat.com](https://boryslavdeputat.com) |
 | **LinkedIn** | [linkedin.com/in/boryslavdeputat](https://www.linkedin.com/in/boryslavdeputat) |
-
-
----
-
-
 
 ---
 
