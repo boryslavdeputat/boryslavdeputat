@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/boryslavdeputat/boryslavdeputat/main/assets/matrix_rain.gif?v=7" width="860" alt="Boryslav Deputat - matrix rain animation" />
+  <img src="https://raw.githubusercontent.com/boryslavdeputat/boryslavdeputat/main/assets/matrix_rain.gif?v=8" width="860" alt="Boryslav Deputat - matrix rain animation" />
 </p>
 
 <p align="center">
